@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Codilya Technologies, Inc. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>  
+        <add id="Codilya_Core::core" title="Codilya" translate="title" module="Codilya_Core" sortOrder="20" resource="Codilya_Core::core"/>
+        
+        <!-- Deperecated to be removed in next release. -->
+        <add id="Codilya_Core::configurations" title="Configurations" translate="title" module="Codilya_Core" sortOrder="100" parent="Codilya_Core::core" resource="Codilya_Core::configurations"/>
+    </menu>
+</config>

@@ -1,0 +1,51 @@
+li[data-ui-id*="menu-codilya-core-core"]>a {
+    &:before {
+        background-image: url('Codilya_Core::images/logo.png');
+        background-repeat: no-repeat;
+        background-size: 100% !important;
+        content: '' !important;
+        display: inline-block !important;
+        width: 48px !important;
+    }
+    &:hover:before{
+       background-position: 0px -26px;
+    }
+}
+li[data-ui-id*="menu-codilya-core-core"]._active>a {
+    &:before{
+       background-position: 0px -26px;
+    }
+}
+.config-nav-block.wt-logo strong {
+    font-size:0px;
+}
+.config-nav-block.wt-logo strong:before {
+    background-image: url('Codilya_Core::images/full-logo.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 141px !important;
+    position: absolute;
+    top: 3px;
+    height: 42px !important;
+    width: 100%;
+    content: '';
+    margin-top: 12px;
+    left: -4px;
+}
+& when (@media-common =true) {
+    .license_key {
+        position    : relative;
+        padding-right: 20px !important;
+
+        .info_icon {
+            position: absolute;
+            right: -3px;
+            top: 27%;
+        
+            img {
+                margin-top: 0px !important;
+                float: none;
+            }
+        }
+    }
+}

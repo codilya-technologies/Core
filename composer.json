@@ -1,0 +1,32 @@
+{
+    "name": "codilyatechnologies/magento2-module-core",
+    "description": "Core module for Codilya Magento2 modules",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "keywords": [
+        "Magento 2",
+        "Codilya Core"
+    ],
+    "authors": [
+        {
+            "name": "codilya",
+            "email": "codilya@gmail.com",
+            "homepage": "http://www.codilya.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Codilya\\Core\\": ""
+        }
+    }
+}
